@@ -6,7 +6,7 @@ The bindings were generated using [Swig](http://www.swig.org/). The `C` header f
 
 #### Steps:
 Note: This was performed on a machine running macOS Catalina. YMMV.
-1. Clone & build [weld](https://github.com/weld-project/weld).
+1. Clone & build [Weld](https://github.com/weld-project/weld).
 
     `cargo build --release`
 2. Copy `<weld-repository>/weld-capi/weld.h` to an appropriate location `<path-to-weld-header>`

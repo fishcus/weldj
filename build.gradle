@@ -13,7 +13,7 @@ repositories {
 }
 
 application {
-    mainClassName = 'com.sujithjay.weldj.WeldRunner'
+    mainClassName = 'com.sujithjay.weldj.examples.WeldRunner'
 }
 
 dependencies {

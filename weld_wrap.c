@@ -154,6 +154,7 @@
 #include <jni.h>
 #include <stdlib.h>
 #include <string.h>
+#include "weld.h"
 
 
 /* Support for throwing Java exceptions */

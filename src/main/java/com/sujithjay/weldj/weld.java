@@ -5,7 +5,7 @@
  * Do not make changes to this file unless you know what you are doing--modify
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
-
+package com.sujithjay.weldj;
 
 public class weld {
   public static void weld_conf_free(SWIGTYPE_p_WeldConf conf) {

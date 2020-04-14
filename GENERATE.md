@@ -25,6 +25,6 @@ This document documents steps to generate `Weldj` bindings, to help reproduce & 
     `gcc -framework JavaVM -dynamiclib weld_wrap.o -lweld -o libweldj.dylib -L<PATH-TO-WELD-DYLIB>` [^2]
     
 #### Footnotes:
-[^1]: `<JDK-HOME>` can be found on *macOS* machine by executing `/usr/libexec/java_home`. 
+[^1]: `<JDK-HOME>` can be found on *macOS* by executing `/usr/libexec/java_home`. 
 
 [^2]: `<PATH-TO-WELD-DYLIB>` can be inferred with: `otool -D target/release/libweld.dylib` within the local `weld` repository.
